@@ -12,6 +12,7 @@ Mathematical design of perceptron:-
 The connection b/w blocks are called weights and biases.W1,W2=>weights,,b=>bias
 z=1.b+X2.W2+X1.W1=>dot product sum.
 z travels forward and multiplies with f(activation func.) whose work is to take z to a given range.
+f can be a unit step function.
 
 We have data of 1000 students of iq,cpi,placement.
 We need to model a predictron.
