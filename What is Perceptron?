@@ -1,0 +1,27 @@
+Perceptron is an algorithm.Used for supervised ML.Its just bcz the design of perceptron is as such that as it automatically became the building block of DL.
+Perceptron is also a mathematical model/function.
+
+Mathematical design of perceptron:-
+                             1------b------>(sum)-----z---->(f)------>
+                                             /\
+                                             |
+                             X2-----W2--------
+                   (INPUT)                   |
+                             X1-----W1--------
+                            
+The connection b/w blocks are called weights and biases.W1,W2=>weights,,b=>bias
+z=1.b+X2.W2+X1.W1=>dot product sum.
+z travels forward and multiplies with f(activation func.) whose work is to take z to a given range.
+
+We have data of 1000 students of iq,cpi,placement.
+We need to model a predictron.
+Using perceptron if i want to solve this problem then there are 2 stages:-
+(i)training  (ii)Prediction
+For each student X1 will be iq and X2 will be cpi.
+The core objective of the training process is to get the value of W1,W2 and b.
+Now we have got the value of W1,W2,b i.e,-W1=1,W2=2,b=3
+z=100*1+5.1*2+3*1=113.2>0=>placement will happen.
+
+What is I have more than 2 i/p cols?
+=>I will provide that many X as i have the number of i/p cols.
+
