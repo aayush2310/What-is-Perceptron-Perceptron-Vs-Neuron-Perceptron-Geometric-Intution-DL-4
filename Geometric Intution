@@ -5,3 +5,13 @@ y=f(z)=0 if z<0
 we will plot cpi Vs iq graph.
 The dots showing placed will be green and those not placed will be red.
 Our end goal is to get a DL model in which when we give it any point,it will predict whether placement occured or not.
+
+Geometrically,the perceptron is a line.
+if(w1x1+w2x2+b>=0) then placement will occur.This is a region.The perceptron is dividing the region into two parts.Perceptron is a line using which we are creating two 
+regions.Perceptron is a binary classifier.
+In 3D,there will be 3 variables,thus a 3D region.
+Therefore,in 3D  coordinate system,the perceptron will be a plane.
+4D onwards,perceptron will act as a hyperplane.
+
+Limitation:-Perceptron can classify only linear or sort of linear data i.e, those data points which can be seperated by a line.
+For a completely non linear dataset,perceptron will fail.
