@@ -1,0 +1,7 @@
+z=w1x1+w2x2+b
+y=f(z)=1 if z>=0
+y=f(z)=0 if z<0
+
+we will plot cpi Vs iq graph.
+The dots showing placed will be green and those not placed will be red.
+Our end goal is to get a DL model in which when we give it any point,it will predict whether placement occured or not.
